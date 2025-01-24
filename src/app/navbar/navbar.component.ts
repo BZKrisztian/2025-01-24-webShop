@@ -16,5 +16,9 @@ export class NavbarComponent {
     )
   }
 
+  addOrder(){
+    this.cartServ.order()
+    
+  }
 
 }
